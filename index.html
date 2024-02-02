@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Бургерная</title>
+    <link rel="stylesheet" href="src/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet/less" href="src/styles/style.less">
+    <link rel="stylesheet/less" href="src/styles/adaptive.less">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-items">
+            <a href="#" class="logo">
+                <img src="src/images/cheeseburger.png" alt="Logo">
+                <span class="header-text">Buffalo Club</span>
+            </a>
+            <ul class="menu">
+                <div class="close">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+                </div>
+                <li><a href="#" id="menu">Меню</a></li>
+                <li><a href="#" id="structure">Состав</a></li>
+                <li><a href="#" id="sale">Акция</a></li>
+                <li><a href="#" id="reviews">Отзывы</a></li>
+                <li><a href="#" id="photos">Фото</a></li>
+                <li><a href="#" id="contacts">Контакты</a></li>
+            </ul>
+            <div class="text-end">
+                <button type="button" class="button" id="call">
+                    <div class="button-text">Заказать звонок</div>
+                    <div class="call-phone">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g fill="#FDCA16FF">
+                                    <path fill-rule="evenodd"
+                                          d="M5.847.533A2.21 2.21 0 004.391 0H2.206a2.21 2.21 0 00-2.09 1.501c-.098.29-.135.598-.107.903l.001.012a15.13 15.13 0 002.355 6.637c1.29 1.987 2.615 3.304 4.596 4.587a15.197 15.197 0 006.618 2.35h.014a2.21 2.21 0 002.406-2.204v-.075c-.002-.383-.008-1.771 0-2.087A2.204 2.204 0 0014.1 9.386h-.007a8.626 8.626 0 01-1.884-.47 2.21 2.21 0 00-2.327.497l-.515.513a10.903 10.903 0 01-3.313-3.305l.51-.509.003-.003a2.204 2.204 0 00.498-2.326 8.577 8.577 0 01-.47-1.88v-.007A2.204 2.204 0 005.847.533zM4.401 1.5a.71.71 0 01.708.604c.1.753.285 1.493.55 2.205l.001.001a.703.703 0 01-.157.742l-.924.923a.75.75 0 00-.122.902 12.403 12.403 0 004.655 4.646.75.75 0 00.9-.121l.923-.921.002-.002a.71.71 0 01.746-.157h.002c.713.266 1.454.45 2.209.55a.709.709 0 01.606.715 148.67 148.67 0 000 2.134v.07a.702.702 0 01-.481.671.71.71 0 01-.286.035 13.696 13.696 0 01-5.957-2.117c-1.805-1.168-2.979-2.335-4.153-4.144a13.63 13.63 0 01-2.12-5.972.702.702 0 01.419-.704c.09-.04.187-.06.286-.06H4.4zm2.664 2.283v-.001l-.703.264.703-.263z"
+                                          clip-rule="evenodd"></path>
+                                    <path d="M10.333.005a.75.75 0 10-.166 1.49 4.91 4.91 0 014.338 4.332.75.75 0 001.49-.167A6.41 6.41 0 0010.333.005z"></path>
+                                    <path d="M10.394 2.53a.75.75 0 10-.288 1.472 2.395 2.395 0 011.892 1.892.75.75 0 101.472-.288 3.894 3.894 0 00-3.076-3.076z"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+            <div class="small-menu" id="smallMenu">☰</div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="advertisement">
+        <div class="container">
+            <div class="background"></div>
+            <div class="grid">
+                <div class="advertisement-info">
+                    <h1 class="advertisement-info-text">Новый фирменный бургер BufBurger!</h1>
+                    <h3>Акция! <span>50% скидка</span> на новый бургер!</h3>
+                    <div class="advertisement-action">
+                        <button type="button" class="button">Подробнее</button>
+                    </div>
+                    <div class="burger-advantages">
+                        <div class="advantage">
+                            <img src="src/images/vegetable.png" alt="Vegetable" class="advantage-img">
+                            <h6 class="advantage-text">В наших бургерах только свежие овощи, выращенные на экологичной
+                                ферме</h6>
+                        </div>
+                        <div class="advantage">
+                            <img src="src/images/chef%20(1).png" alt="Chef" class="advantage-img">
+                            <h6 class="advantage-text">Ваш бургер сделает настоящий профессионал и фанат своего
+                                дела</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertisement-image">
+                    <img src="src/images/main-burger.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="burger-structure">
+        <div class="container">
+            <h2 class="structure-heading">Состав наших бургеров</h2>
+            <div class="main-img">
+                <div class="structure-img">
+                    <div class="img">
+                        <img src="src/images/burger-structure.png" alt="Structure">
+                        <div class="blur"></div><div class="structure-item item-1">
+                        <h4 class="structure-item-text">Булочки собственного производства</h4>
+                        <div class="structure-item-pointer">
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="351.5px" height="63.5px">
+                                <defs>
+                                    <filter id="Filter_0">
+                                        <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                        <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                     result="compOut"/>
+                                        <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                    </filter>
+
+                                </defs>
+                                <g filter="url(#Filter_0)">
+                                    <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                          stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                          fill="none"
+                                          d="M0.500,0.499 L200.499,0.500 L350.499,61.499 "/>
+                                </g>
+                                <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                      stroke-linecap="butt" stroke-linejoin="miter"
+                                      d="M0.500,0.499 L200.499,0.500 L350.499,61.499 "/>
+                            </svg>
+                        </div>
+                        <div class="w1140">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="250.5px" height="40.5px">
+                                <defs>
+                                    <filter id="Filter_0">
+                                        <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                 result="floodOut"></feFlood>
+                                        <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                     result="compOut"></feComposite>
+                                        <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                    </filter>
+
+                                </defs>
+                                <g filter="url(#Filter_0)">
+                                    <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                          stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                          fill="none" d="M0.500,0.499 L190.499,0.500 L250.499,40.499 "></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="w810">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="250.5px" height="40.5px">
+                                <defs>
+                                    <filter id="Filter_0">
+                                        <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                 result="floodOut"></feFlood>
+                                        <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                     result="compOut"></feComposite>
+                                        <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                    </filter>
+
+                                </defs>
+                                <g filter="url(#Filter_0)">
+                                    <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                          stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                          fill="none" d="M0.500,0.499 L190.499,0.500 L250.499,40.499 "></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                        <div class="structure-item item-2">
+                            <h4 class="structure-item-text">Свежая зелень прямо из теплиц</h4>
+                            <div class="structure-item-pointer">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="311.5px" height="72.5px">
+                                    <defs>
+                                        <filter id="Filter_1">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"/>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_1)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none"
+                                              d="M0.499,70.500 L200.499,70.500 L309.500,0.499 "/>
+                                    </g>
+                                    <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                          stroke-linecap="butt" stroke-linejoin="miter"
+                                          d="M0.499,70.500 L200.499,70.500 L309.500,0.499 "/>
+                                </svg>
+                            </div>
+                            <div class="w1140">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="62.5px" width="209.5px">
+                                    <defs>
+                                        <filter id="Filter_1">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_1)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M0.499,60.500 L150.499,60.500 L209.500,0.499 "></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w810">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="62.5px" width="209.5px">
+                                    <defs>
+                                        <filter id="Filter_1">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_1)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M0.499,60.500 L150.499,60.500 L209.500,0.499 "></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="structure-item item-3">
+                            <h4 class="structure-item-text">Натуральная мясная котлета</h4>
+                            <div class="structure-item-pointer">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="270.5px" height="37.5px">
+                                    <defs>
+                                        <filter id="Filter_2">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"/>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_2)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none"
+                                              d="M0.500,0.499 L200.499,0.500 L269.499,35.500 "/>
+                                    </g>
+                                    <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                          stroke-linecap="butt" stroke-linejoin="miter"
+                                          d="M0.500,0.499 L200.499,0.500 L269.499,35.500 "/>
+                                </svg>
+                            </div>
+                            <div class="w1140">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200.5px" height="37.5px">
+                                    <defs>
+                                        <filter id="Filter_2">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_2)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M0.500,0.499 L150.499,0.500 L200.499,35.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                            <div class="w810">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200.5px" height="37.5px">
+                                    <defs>
+                                        <filter id="Filter_2">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_2)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M0.500,0.499 L150.499,0.500 L200.499,35.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="structure-item item-4">
+                            <h4 class="structure-item-text">Секретный фирменный соус</h4>
+                            <div class="structure-item-pointer">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="318.5px" height="69.5px">
+                                    <defs>
+                                        <filter id="Filter_3">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"/>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_3)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none"
+                                              d="M317.499,1.499 L49.500,1.499 L1.499,68.500 "/>
+                                    </g>
+                                    <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                          stroke-linecap="butt" stroke-linejoin="miter"
+                                          d="M317.499,1.499 L49.500,1.499 L1.499,68.500 "/>
+                                </svg>
+                            </div>
+                            <div class="w1140">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="291.5px" height="51.5px">
+                                    <defs>
+                                        <filter id="Filter_3">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_3)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M290.499,1.499 L49.500,1.499 L1.499,50.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                            <div class="w810">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="291.5px" height="51.5px">
+                                    <defs>
+                                        <filter id="Filter_3">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_3)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M290.499,1.499 L49.500,1.499 L1.499,50.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="structure-item item-5">
+                            <h4 class="structure-item-text">Спелые и сочные томаты</h4>
+                            <div class="structure-item-pointer">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="295.5px" height="107.5px">
+                                    <defs>
+                                        <filter id="Filter_4">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"/>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_4)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none"
+                                              d="M294.499,1.499 L121.499,4.499 L-1.499,108.500 "/>
+                                    </g>
+                                    <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                          stroke-linecap="butt" stroke-linejoin="miter"
+                                          d="M294.499,1.499 L121.499,4.499 L-1.499,108.500 "/>
+                                </svg>
+                            </div>
+                            <div class="w1140">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="236.5px" height="61.5px">
+                                    <defs>
+                                        <filter id="Filter_4">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_4)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M235.5,1 L60.5,1 L0,50.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                            <div class="w810">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="236.5px" height="61.5px">
+                                    <defs>
+                                        <filter id="Filter_4">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_4)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M235.5,1 L60.5,1 L0,50.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="structure-item item-6">
+                            <h4 class="structure-item-text">Соленые хрустящие огурчики</h4>
+                            <div class="structure-item-pointer">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="304.5px" height="26.5px">
+                                    <defs>
+                                        <filter id="Filter_5">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"/>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_5)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none"
+                                              d="M303.500,25.499 L72.499,25.499 L-3.500,0.500 "/>
+                                    </g>
+                                    <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                          stroke-linecap="butt" stroke-linejoin="miter"
+                                          d="M303.500,25.499 L72.499,25.499 L-3.500,0.500 "/>
+                                </svg>
+                            </div>
+                            <div class="w1140">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="251.5px" height="26.5px">
+                                    <defs>
+                                        <filter id="Filter_5">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_5)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M250.500,25.499 L52.499,25.499 L0.500,0.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                            <div class="w810">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="251.5px" height="26.5px">
+                                    <defs>
+                                        <filter id="Filter_5">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_5)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M250.500,25.499 L52.499,25.499 L0.500,0.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="structure-item item-7">
+                            <h4 class="structure-item-text">Нежнейший сливочный сыр</h4>
+                            <div class="structure-item-pointer">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="339.5px" height="76.5px">
+                                    <defs>
+                                        <filter id="Filter_6">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"/>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_6)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none"
+                                              d="M338.499,74.500 L159.500,75.500 L-3.499,0.500 "/>
+                                    </g>
+                                    <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                          stroke-linecap="butt" stroke-linejoin="miter"
+                                          d="M338.499,74.500 L159.500,75.500 L-3.499,0.500 "/>
+                                </svg>
+                            </div>
+                            <div class="w1140">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="230.5px" height="51.5px">
+                                    <defs>
+                                        <filter id="Filter_6">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_6)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M228.499,50.500 L100.500,50.500 L0.499,0.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                            <div class="w810">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="230.5px" height="51.5px">
+                                    <defs>
+                                        <filter id="Filter_6">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_6)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M228.499,50.500 L100.500,50.500 L0.499,0.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                            <div class="w630">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="251.5px" height="26.5px">
+                                    <defs>
+                                        <filter id="Filter_5">
+                                            <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1"
+                                                     result="floodOut"></feFlood>
+                                            <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                                         result="compOut"></feComposite>
+                                            <feBlend mode="normal" in="compOut" in2="SourceGraphic"></feBlend>
+                                        </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_5)">
+                                        <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                              stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter"
+                                              fill="none" d="M250.500,25.499 L52.499,25.499 L0.500,0.500 "></path>
+                                    </g>
+
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="structure-list">
+                        <h4 class="structure-item-text">Булочки собственного производства</h4>
+                        <h4 class="structure-item-text">Свежая зелень прямо из теплиц</h4>
+                        <h4 class="structure-item-text">Натуральная мясная котлета</h4>
+                        <h4 class="structure-item-text">Секретный фирменный соус</h4>
+                        <h4 class="structure-item-text">Спелые и сочные томаты</h4>
+                        <h4 class="structure-item-text">Соленые хрустящие огурчики</h4>
+                        <h4 class="structure-item-text">Нежнейший сливочный сыр</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="tomato">
+                <img src="src/images/tomato.png" alt="Tomato">
+            </div>
+            <div class="green-pepper">
+                <img src="src/images/green-peppers.png" alt="Pepper">
+            </div>
+            <div class="structure">
+            </div>
+        </div>
+    </section>
+    <section class="offers">
+        <div class="container">
+            <div class="offers-header d-flex flex-column">
+                <h2>Меню</h2>
+                <div class="header-actions">
+                    <button type="button" class="button" id="allBurgers">Все</button>
+                    <button type="button" class="button" id="popularBurgers">Популярные</button>
+                    <button type="button" class="button" id="hotBurgers">Острые</button>
+                    <button type="button" class="button" id="veganBurgers">Веганские</button>
+                </div>
+            </div>
+            <div class="offers-items">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                    <div class="col cool">
+                        <div class="card-wight-height ">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/blackbro.png" alt="">
+                            </div>
+                            <div class="burgerIconBack coolBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="200" id="Color"
+                                         viewBox="0 0 200 200" width="200">
+                                        <defs>
+                                            <style>.cls-1 {
+                                                fill: white;
+                                            }
+
+                                            .cls-2 {
+                                                fill: white;
+                                            }</style>
+                                        </defs>
+                                        <title/>
+                                        <path class="cls-1"
+                                              d="M146.83,176.1h0L97,175.7a31.14,31.14,0,0,1-31.17-31.19V103.4a30.31,30.31,0,0,1,8.6-21.54C87,67.54,86.61,49,86.4,45.35v-.13c-.57-8,2.07-12.91,4.39-15.59A16.49,16.49,0,0,1,102.06,24c5.69-.61,11.86,1.52,17.39,5.95a40,40,0,0,1,9.88,12.09,45.56,45.56,0,0,1,5.17,16.88,49.66,49.66,0,0,1-.44,13.77L156,73a30.78,30.78,0,0,1,22.5,9.59c5.23,5.27,8.51,13,9,21.25a2.18,2.18,0,0,1,0,.51,163.33,163.33,0,0,1-3.16,28.86,86.73,86.73,0,0,1-7.64,22.33c-9,17-21.21,20.57-29.86,20.57ZM97.36,44.67v0a67,67,0,0,1-1.2,16.09A59,59,0,0,1,82.55,89.26l-.23.23a19.21,19.21,0,0,0-5.51,13.91v41.11A20.22,20.22,0,0,0,97,164.71h0l49.79.39c8.2,0,15-5,20.14-14.71,5.66-10.72,9-26.66,9.53-46.09a22.06,22.06,0,0,0-5.9-14l-.16-.15A19.45,19.45,0,0,0,155.89,84h-.08L127,83.62a5.48,5.48,0,0,1-5.12-7.23,39.32,39.32,0,0,0,1.72-16.23v0c-.92-8.71-5-16.76-11-21.56-3.22-2.6-6.64-3.91-9.39-3.6l-.22,0a5.56,5.56,0,0,0-3.85,1.86c-1.38,1.62-2,4.27-1.73,7.67v.14Zm0,0v.19A.53.53,0,0,0,97.36,44.69Z"/>
+                                        <path class="cls-2"
+                                              d="M35.23,173.44H32.47a20,20,0,0,1-20-20V108.38a20,20,0,0,1,20-20h2.76a20,20,0,0,1,20,20v45.08A20,20,0,0,1,35.23,173.44ZM32.47,99.38a9,9,0,0,0-9,9v45.08a9,9,0,0,0,9,9h2.76a9,9,0,0,0,9-9V108.38a9,9,0,0,0-9-9Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Черный бургер</h5>
+                                <p class="card-text">куриная котлета, огурцы, сыр, помидоры, соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">350 гр</p>
+                                    <p class="card-price me-0">10 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/tofu.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Бургер с тофу и беконом</h5>
+                                <p class="card-text">куриная котлета, бекон, сыр тофу, помидоры, соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">430 гр</p>
+                                    <p class="card-price me-0">11 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/bacon-burger.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Бургер с беконом</h5>
+                                <p class="card-text">говяжья котлета, сыр, бекон, помидоры, соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">470 гр</p>
+                                    <p class="card-price me-0">13 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col cool">
+                        <div class="card-wight-height ">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/чикен.png" alt="">
+                            </div>
+                            <div class="burgerIconBack coolBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="200" id="Color"
+                                         viewBox="0 0 200 200" width="200">
+                                        <defs>
+                                            <style>.cls-1 {
+                                                fill: white;
+                                            }
+
+                                            .cls-2 {
+                                                fill: white;
+                                            }</style>
+                                        </defs>
+                                        <title/>
+                                        <path class="cls-1"
+                                              d="M146.83,176.1h0L97,175.7a31.14,31.14,0,0,1-31.17-31.19V103.4a30.31,30.31,0,0,1,8.6-21.54C87,67.54,86.61,49,86.4,45.35v-.13c-.57-8,2.07-12.91,4.39-15.59A16.49,16.49,0,0,1,102.06,24c5.69-.61,11.86,1.52,17.39,5.95a40,40,0,0,1,9.88,12.09,45.56,45.56,0,0,1,5.17,16.88,49.66,49.66,0,0,1-.44,13.77L156,73a30.78,30.78,0,0,1,22.5,9.59c5.23,5.27,8.51,13,9,21.25a2.18,2.18,0,0,1,0,.51,163.33,163.33,0,0,1-3.16,28.86,86.73,86.73,0,0,1-7.64,22.33c-9,17-21.21,20.57-29.86,20.57ZM97.36,44.67v0a67,67,0,0,1-1.2,16.09A59,59,0,0,1,82.55,89.26l-.23.23a19.21,19.21,0,0,0-5.51,13.91v41.11A20.22,20.22,0,0,0,97,164.71h0l49.79.39c8.2,0,15-5,20.14-14.71,5.66-10.72,9-26.66,9.53-46.09a22.06,22.06,0,0,0-5.9-14l-.16-.15A19.45,19.45,0,0,0,155.89,84h-.08L127,83.62a5.48,5.48,0,0,1-5.12-7.23,39.32,39.32,0,0,0,1.72-16.23v0c-.92-8.71-5-16.76-11-21.56-3.22-2.6-6.64-3.91-9.39-3.6l-.22,0a5.56,5.56,0,0,0-3.85,1.86c-1.38,1.62-2,4.27-1.73,7.67v.14Zm0,0v.19A.53.53,0,0,0,97.36,44.69Z"/>
+                                        <path class="cls-2"
+                                              d="M35.23,173.44H32.47a20,20,0,0,1-20-20V108.38a20,20,0,0,1,20-20h2.76a20,20,0,0,1,20,20v45.08A20,20,0,0,1,35.23,173.44ZM32.47,99.38a9,9,0,0,0-9,9v45.08a9,9,0,0,0,9,9h2.76a9,9,0,0,0,9-9V108.38a9,9,0,0,0-9-9Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Чикен бургер</h5>
+                                <p class="card-text">куриная котлета, помидоры, соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">345 гр</p>
+                                    <p class="card-price me-0">6 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col hot">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/острый.png" alt="">
+                            </div>
+                            <div class="burgerIconBack hotBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                         version="1.1" x="0px" y="0px" viewBox="0 0 75.142 99.999"
+                                         enable-background="new 0 0 75.142 99.999" xml:space="preserve"><path d="M56.572,55.698c0-1.52,6.527-21.734-6.182-27.847C35.748,20.808,31.701,15.19,31.822,6.188  c-0.009,0.365-8.855,14.62-3.094,21.663c8.942,10.902,5.166,19.343,0,18.566c-8.68-1.301-7.632-12.617-6.191-15.472  c-4.536-0.478-9.782,2.343-12.378,6.188c-7.808,11.598,9.114,22.696,3.097,30.944c-4.579,6.285-12.404-6.09-12.378-6.188  c-9.29,48.494,58.182,49.726,61.889,9.284c1.104-12.128,12.024-18.725,12.375-18.569C63.515,47.243,56.572,56.086,56.572,55.698z   M34.918,89.743C18.695,90.341,20.361,78.184,22.537,74.27c2.763-4.984,9.76-5.969,6.191-12.381  c0.046,0.098,7.589,1.231,12.373,6.188C48.439,75.652,47.604,89.264,34.918,89.743z"></path>
+                                        <path d="M44.197,15.472c-1.894-2.032-3.097-4.472-3.097-6.19c0-3.221,2.631-6.317,6.193-9.282c0.357,2.579-1.543,6.447,0,9.282  c1.197,2.098,3.097,4.472,3.097,6.19c0,2.302-0.857,4.4-3.097,6.188C46.954,20.799,46.361,17.976,44.197,15.472z"></path></svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Острый бургер</h5>
+                                <p class="card-text">говяжья котлета, огурцы, сыр, острый соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">405 гр</p>
+                                    <p class="card-price me-0">13 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col vegan">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/гамбургер.png" alt="">
+                            </div>
+                            <div class="burgerIconBack veganBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                         enable-background="new 0 0 464.005 464.005" viewBox="0 0 464.005 464.005">
+                                        <path d="m330.04 210.811 18.67 62.84c-39.329 44.91-58.053 103.348-50.79 162.88 1.75 14.32-9.38 26.95-23.81 26.95h-84.2c-14.43 0-25.56-12.63-23.81-26.95 7.259-59.499-11.438-117.945-50.79-162.88l23.25-52.29 51.1 3.38-4.65 26.74c4.28 30.08 15.25 58.65 33.06 83.68 6.84 9.62 21.04 9.62 27.88 0 17.81-25.03 28.78-53.61 33.06-83.68z"
+                                              fill="#daffbf" style="fill: rgb(252, 252, 252);"/>
+                                        <path d="m167.514 418.473c1.483-42.656-10.228-84.548-34.175-121.071 2.57 3.869 7.892 4.708 11.562 1.878 2.72-2.101 5.317-4.319 7.817-6.659 2.87-2.7 7.261-2.949 10.371-.53.92.72 1.85 1.42 2.79 2.111 26.413 38.758 38.058 82.582 36.256 125.745-.387 9.272-8.035 16.585-17.316 16.585-9.855 0-17.647-8.209-17.305-18.059z"
+                                              fill="#f0ffe6" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m418.18 290.572c-39.2 18.68-89.49.939-109.36-41.66-40.05 58.27-114.25 57.29-153.62 0-19.87 42.6-70.16 60.34-109.36 41.66-50.662-24.128-65.907-101.159-11.83-133.03-16.444-29.774-11.658-67.202 11.83-89.59 20.16-19.22 51.17-24.51 78.42-13.52l.02.01c49.8-70.57 163.8-73.2 215.46 0l.02-.01c27.25-10.99 58.26-5.7 78.42 13.52 23.116 22.044 28.536 59.342 11.83 89.59 53.784 31.408 39.163 108.744-11.83 133.03z"
+                                              fill="#befa91" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m339.83 284.492c-4.2 5.49-8.86 12.13-13.53 19.88-5.345-3.475-10.353-7.404-14.983-11.743-2.886-2.705-7.291-2.922-10.413-.493-7.163 5.573-14.805 10.242-22.808 13.941-6.532 3.019-13.483-3.461-10.829-10.149 1.781-4.486 3.388-9.038 4.823-13.646 13.73-7.19 26.37-18.3 36.73-33.37 7.09 15.2 18.06 27.24 31.01 35.58z"
+                                              fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m185.898 306.029c-8.005-3.702-15.646-8.369-22.808-13.938-3.108-2.416-7.5-2.164-10.371.53-2.496 2.342-5.106 4.564-7.817 6.659-3.688 2.849-9.033 1.982-11.588-1.915-3.161-4.821-6.25-9.116-9.124-12.873 12.95-8.34 23.92-20.38 31.01-35.58 10.27 14.95 22.91 26.06 36.7 33.29 1.436 4.621 3.045 9.184 4.828 13.68 2.652 6.688-4.3 13.166-10.83 10.147z"
+                                              fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m185.756 61.737c-3.244 2.894-6.351 5.975-9.304 9.241-5.788 6.402-14.582 9.009-23.044 7.313-23.419-4.693-47.768 1.643-64.568 17.66-19.621 18.701-26.171 47.865-18.258 74.289 2.669 8.913.257 18.588-6.538 24.944-7.854 7.346-13.366 15.953-16.775 25.182-9.819 26.581-49.805 17.091-46.906-11.097 2.077-20.192 12.607-39.327 33.648-51.728-16.444-29.774-11.658-67.202 11.83-89.59 20.16-19.22 51.17-24.51 78.42-13.52l.02.01c8.768-12.426 19.527-22.745 31.586-30.915 24.978-16.924 52.402 18.121 29.889 38.211z"
+                                              fill="#daffbf" style="fill: rgb(252, 252, 252);"/>
+                                        <g fill="#9ceb63">
+                                            <path d="m433.763 149.761c-1.097 2.639-2.349 5.238-3.753 7.781-13.61-7.95-27.92-10.98-36.17-12.11-3.911-.543-6.9-3.868-6.9-7.96 0-4.859 4.28-8.6 9.09-7.939 8.424 1.173 20.99 3.907 33.806 9.884 3.878 1.807 5.569 6.392 3.927 10.344z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                            <path d="m77.08 137.372c0 4.317-3.083 7.53-6.9 8.06-8.25 1.13-22.56 4.16-36.17 12.11-1.402-2.538-2.648-5.129-3.741-7.76-1.642-3.953.05-8.543 3.934-10.341 11.219-5.195 23.684-8.63 33.847-10.009 4.78-.64 9.03 3.11 9.03 7.94z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                            <path d="m243.722 124.123c-6.273 0-10.232-7.066-6.648-12.439 1.844-2.765 18.887-26.991 49.56-26.991 17.148 0 33.217 8.092 43.708 19.507 2.989 3.253 2.775 8.313-.478 11.304-3.252 2.99-8.313 2.775-11.304-.478-7.727-8.409-19.48-14.333-31.923-14.333-22.741 0-35.71 19.057-36.251 19.868-1.542 2.311-4.079 3.562-6.664 3.562z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                            <path d="m114.836 191.824c-5.685 0-9.597-5.821-7.368-11.109 10.234-24.275 34.247-39.861 59.789-38.735 21.992.951 42.053 14.095 52.351 34.3 2.006 3.937.441 8.754-3.495 10.761-3.938 2.008-8.754.441-10.761-3.495-7.684-15.076-22.546-24.878-38.787-25.581-18.911-.805-36.704 10.823-44.353 28.966-1.289 3.055-4.255 4.893-7.376 4.893z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Бургер с тофу
+                                    и фалафелем</h5>
+                                <p class="card-text">сыр тофу, помидоры, соус, салат, огурцы</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">375 гр</p>
+                                    <p class="card-price me-0">9 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/с%20яйцом.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Бургер с яйцом</h5>
+                                <p class="card-text">говяжья котлета, сыр, яйцо, помидоры, соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">395 гр</p>
+                                    <p class="card-price me-0">12 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/hamburger.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Гамбургер</h5>
+                                <p class="card-text">говяжья котлета, сыр, яйцо, помидоры, соус, салат</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">320 гр</p>
+                                    <p class="card-price me-0">6 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col still">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/doble.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Монблан Бургер с курицей</h5>
+                                <p class="card-text">куриная котлета, сырная котлета, бекон, свежий салат и пикантный
+                                    соус</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">415 гр</p>
+                                    <p class="card-price me-0">15 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col still hot">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/doblechees.png" alt="">
+                            </div>
+                            <div class="burgerIconBack hotBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                         version="1.1" x="0px" y="0px" viewBox="0 0 75.142 99.999"
+                                         enable-background="new 0 0 75.142 99.999" xml:space="preserve"><path d="M56.572,55.698c0-1.52,6.527-21.734-6.182-27.847C35.748,20.808,31.701,15.19,31.822,6.188  c-0.009,0.365-8.855,14.62-3.094,21.663c8.942,10.902,5.166,19.343,0,18.566c-8.68-1.301-7.632-12.617-6.191-15.472  c-4.536-0.478-9.782,2.343-12.378,6.188c-7.808,11.598,9.114,22.696,3.097,30.944c-4.579,6.285-12.404-6.09-12.378-6.188  c-9.29,48.494,58.182,49.726,61.889,9.284c1.104-12.128,12.024-18.725,12.375-18.569C63.515,47.243,56.572,56.086,56.572,55.698z   M34.918,89.743C18.695,90.341,20.361,78.184,22.537,74.27c2.763-4.984,9.76-5.969,6.191-12.381  c0.046,0.098,7.589,1.231,12.373,6.188C48.439,75.652,47.604,89.264,34.918,89.743z"></path>
+                                        <path d="M44.197,15.472c-1.894-2.032-3.097-4.472-3.097-6.19c0-3.221,2.631-6.317,6.193-9.282c0.357,2.579-1.543,6.447,0,9.282  c1.197,2.098,3.097,4.472,3.097,6.19c0,2.302-0.857,4.4-3.097,6.188C46.954,20.799,46.361,17.976,44.197,15.472z"></path></svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Двойной Чизбургер</h5>
+                                <p class="card-text">Два бифштекса, сыр «Чеддер», кетчуп, горчица, лук и маринованные
+                                    огурчики</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">395 гр</p>
+                                    <p class="card-price me-0">11 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col still cool">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/monblan.png" alt="">
+                            </div>
+                            <div class="burgerIconBack coolBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="200" id="Color"
+                                         viewBox="0 0 200 200" width="200">
+                                        <defs>
+                                            <style>.cls-1 {
+                                                fill: white;
+                                            }
+
+                                            .cls-2 {
+                                                fill: white;
+                                            }</style>
+                                        </defs>
+                                        <title/>
+                                        <path class="cls-1"
+                                              d="M146.83,176.1h0L97,175.7a31.14,31.14,0,0,1-31.17-31.19V103.4a30.31,30.31,0,0,1,8.6-21.54C87,67.54,86.61,49,86.4,45.35v-.13c-.57-8,2.07-12.91,4.39-15.59A16.49,16.49,0,0,1,102.06,24c5.69-.61,11.86,1.52,17.39,5.95a40,40,0,0,1,9.88,12.09,45.56,45.56,0,0,1,5.17,16.88,49.66,49.66,0,0,1-.44,13.77L156,73a30.78,30.78,0,0,1,22.5,9.59c5.23,5.27,8.51,13,9,21.25a2.18,2.18,0,0,1,0,.51,163.33,163.33,0,0,1-3.16,28.86,86.73,86.73,0,0,1-7.64,22.33c-9,17-21.21,20.57-29.86,20.57ZM97.36,44.67v0a67,67,0,0,1-1.2,16.09A59,59,0,0,1,82.55,89.26l-.23.23a19.21,19.21,0,0,0-5.51,13.91v41.11A20.22,20.22,0,0,0,97,164.71h0l49.79.39c8.2,0,15-5,20.14-14.71,5.66-10.72,9-26.66,9.53-46.09a22.06,22.06,0,0,0-5.9-14l-.16-.15A19.45,19.45,0,0,0,155.89,84h-.08L127,83.62a5.48,5.48,0,0,1-5.12-7.23,39.32,39.32,0,0,0,1.72-16.23v0c-.92-8.71-5-16.76-11-21.56-3.22-2.6-6.64-3.91-9.39-3.6l-.22,0a5.56,5.56,0,0,0-3.85,1.86c-1.38,1.62-2,4.27-1.73,7.67v.14Zm0,0v.19A.53.53,0,0,0,97.36,44.69Z"/>
+                                        <path class="cls-2"
+                                              d="M35.23,173.44H32.47a20,20,0,0,1-20-20V108.38a20,20,0,0,1,20-20h2.76a20,20,0,0,1,20,20v45.08A20,20,0,0,1,35.23,173.44ZM32.47,99.38a9,9,0,0,0-9,9v45.08a9,9,0,0,0,9,9h2.76a9,9,0,0,0,9-9V108.38a9,9,0,0,0-9-9Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Монблан Бургер</h5>
+                                <p class="card-text">бекон жареный, бифштекс из говядины, соус «Сэндвич-соус», сырная
+                                    котлета, лук</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">450 гр</p>
+                                    <p class="card-price me-0">15 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col still vegan">
+                        <div class="card-wight-height">
+                            <div class="item-card-img">
+                                <img src="src/images/burgers/tofuCheese.png" alt="">
+                            </div>
+                            <div class="burgerIconBack veganBurger">
+                                <div class="Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                         enable-background="new 0 0 464.005 464.005" viewBox="0 0 464.005 464.005">
+                                        <path d="m330.04 210.811 18.67 62.84c-39.329 44.91-58.053 103.348-50.79 162.88 1.75 14.32-9.38 26.95-23.81 26.95h-84.2c-14.43 0-25.56-12.63-23.81-26.95 7.259-59.499-11.438-117.945-50.79-162.88l23.25-52.29 51.1 3.38-4.65 26.74c4.28 30.08 15.25 58.65 33.06 83.68 6.84 9.62 21.04 9.62 27.88 0 17.81-25.03 28.78-53.61 33.06-83.68z"
+                                              fill="#daffbf" style="fill: rgb(252, 252, 252);"/>
+                                        <path d="m167.514 418.473c1.483-42.656-10.228-84.548-34.175-121.071 2.57 3.869 7.892 4.708 11.562 1.878 2.72-2.101 5.317-4.319 7.817-6.659 2.87-2.7 7.261-2.949 10.371-.53.92.72 1.85 1.42 2.79 2.111 26.413 38.758 38.058 82.582 36.256 125.745-.387 9.272-8.035 16.585-17.316 16.585-9.855 0-17.647-8.209-17.305-18.059z"
+                                              fill="#f0ffe6" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m418.18 290.572c-39.2 18.68-89.49.939-109.36-41.66-40.05 58.27-114.25 57.29-153.62 0-19.87 42.6-70.16 60.34-109.36 41.66-50.662-24.128-65.907-101.159-11.83-133.03-16.444-29.774-11.658-67.202 11.83-89.59 20.16-19.22 51.17-24.51 78.42-13.52l.02.01c49.8-70.57 163.8-73.2 215.46 0l.02-.01c27.25-10.99 58.26-5.7 78.42 13.52 23.116 22.044 28.536 59.342 11.83 89.59 53.784 31.408 39.163 108.744-11.83 133.03z"
+                                              fill="#befa91" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m339.83 284.492c-4.2 5.49-8.86 12.13-13.53 19.88-5.345-3.475-10.353-7.404-14.983-11.743-2.886-2.705-7.291-2.922-10.413-.493-7.163 5.573-14.805 10.242-22.808 13.941-6.532 3.019-13.483-3.461-10.829-10.149 1.781-4.486 3.388-9.038 4.823-13.646 13.73-7.19 26.37-18.3 36.73-33.37 7.09 15.2 18.06 27.24 31.01 35.58z"
+                                              fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m185.898 306.029c-8.005-3.702-15.646-8.369-22.808-13.938-3.108-2.416-7.5-2.164-10.371.53-2.496 2.342-5.106 4.564-7.817 6.659-3.688 2.849-9.033 1.982-11.588-1.915-3.161-4.821-6.25-9.116-9.124-12.873 12.95-8.34 23.92-20.38 31.01-35.58 10.27 14.95 22.91 26.06 36.7 33.29 1.436 4.621 3.045 9.184 4.828 13.68 2.652 6.688-4.3 13.166-10.83 10.147z"
+                                              fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                        <path d="m185.756 61.737c-3.244 2.894-6.351 5.975-9.304 9.241-5.788 6.402-14.582 9.009-23.044 7.313-23.419-4.693-47.768 1.643-64.568 17.66-19.621 18.701-26.171 47.865-18.258 74.289 2.669 8.913.257 18.588-6.538 24.944-7.854 7.346-13.366 15.953-16.775 25.182-9.819 26.581-49.805 17.091-46.906-11.097 2.077-20.192 12.607-39.327 33.648-51.728-16.444-29.774-11.658-67.202 11.83-89.59 20.16-19.22 51.17-24.51 78.42-13.52l.02.01c8.768-12.426 19.527-22.745 31.586-30.915 24.978-16.924 52.402 18.121 29.889 38.211z"
+                                              fill="#daffbf" style="fill: rgb(252, 252, 252);"/>
+                                        <g fill="#9ceb63">
+                                            <path d="m433.763 149.761c-1.097 2.639-2.349 5.238-3.753 7.781-13.61-7.95-27.92-10.98-36.17-12.11-3.911-.543-6.9-3.868-6.9-7.96 0-4.859 4.28-8.6 9.09-7.939 8.424 1.173 20.99 3.907 33.806 9.884 3.878 1.807 5.569 6.392 3.927 10.344z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                            <path d="m77.08 137.372c0 4.317-3.083 7.53-6.9 8.06-8.25 1.13-22.56 4.16-36.17 12.11-1.402-2.538-2.648-5.129-3.741-7.76-1.642-3.953.05-8.543 3.934-10.341 11.219-5.195 23.684-8.63 33.847-10.009 4.78-.64 9.03 3.11 9.03 7.94z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                            <path d="m243.722 124.123c-6.273 0-10.232-7.066-6.648-12.439 1.844-2.765 18.887-26.991 49.56-26.991 17.148 0 33.217 8.092 43.708 19.507 2.989 3.253 2.775 8.313-.478 11.304-3.252 2.99-8.313 2.775-11.304-.478-7.727-8.409-19.48-14.333-31.923-14.333-22.741 0-35.71 19.057-36.251 19.868-1.542 2.311-4.079 3.562-6.664 3.562z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                            <path d="m114.836 191.824c-5.685 0-9.597-5.821-7.368-11.109 10.234-24.275 34.247-39.861 59.789-38.735 21.992.951 42.053 14.095 52.351 34.3 2.006 3.937.441 8.754-3.495 10.761-3.938 2.008-8.754.441-10.761-3.495-7.684-15.076-22.546-24.878-38.787-25.581-18.911-.805-36.704 10.823-44.353 28.966-1.289 3.055-4.255 4.893-7.376 4.893z"
+                                                  fill="#9ceb63" style="fill: rgb(255, 255, 255);"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Гамбургер c тофу</h5>
+                                <p class="card-text">сыр тофу, помидоры, свекла, лук, огурцы, соус</p>
+                                <div class="card-item-price d-flex align-items-center">
+                                    <p class="card-weight ms-0">350 гр</p>
+                                    <p class="card-price me-0">8 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offers-footer-actions">
+                <button type="button" class="button" id="otherBurgers">Показать еще
+                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L7 6.29289L12.6464 0.646447C12.8417 0.451184 13.1583 0.451184 13.3536 0.646447C13.5488 0.841709 13.5488 1.15829 13.3536 1.35355L7.35355 7.35355C7.15829 7.54882 6.84171 7.54882 6.64645 7.35355L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"
+                              fill="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="container">
+            <img src="src/images/percents/percent_4.png" alt="" class="percent_0 percent">
+            <img src="src/images/percents/percent_1.png" alt="" class="percent_1 percent">
+            <img src="src/images/percents/percent_2.png" alt="" class="percent_2 percent">
+            <img src="src/images/percents/percent_3.png" alt="" class="percent_3 percent">
+            <img src="src/images/percents/percent_0.png" alt="" class="percent_4 percent">
+            <div class="sep-burger">
+                <img src="src/images/smoke.png" alt="" class="smoke">
+                <div class="burger-background"></div>
+                <div class="burger_sandwich">
+                    <img src="src/images/burger_sandwich.png" alt="">
+                    <div class="structure-item-pointer">
+                        <h4 class="structure-item-text">BufBurger, 560 гр</h4>
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="162.5px" height="59.5px">
+                            <defs>
+                                <filter id="Filter_0">
+                                    <feFlood flood-color="rgb(253, 202, 22)" flood-opacity="1" result="floodOut"/>
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut"/>
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic"/>
+                                </filter>
+
+                            </defs>
+                            <g filter="url(#Filter_0)">
+                                <path fill-rule="evenodd" stroke="rgb(251, 250, 250)" stroke-width="1px"
+                                      stroke-dasharray="6, 6"
+                                      stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                      d="M161.500,58.499 L50.233,58.500 L-1.500,-1.499 "/>
+                            </g>
+                            <path fill="none" stroke="rgb(251, 250, 250)" stroke-width="1px" stroke-dasharray="6, 6"
+                                  stroke-linecap="butt" stroke-linejoin="miter"
+                                  d="M161.500,58.499 L50.233,58.500 L-1.500,-1.499 "/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="september-text">
+                <div class="main-text">Сентябрьская акция</div>
+                <div class="second-text"><span>Только в сентябре</span> на наш обновленный фирменный бургер BufBurger
+                    <span>действует скидка 50%!</span></div>
+                <div class="second-text">Мы добавили новый секретный соус, новые приправы и специи, а булочки стали еще
+                    хрустящей!
+                </div>
+                <div class="notation">* Покупай один любой бургер из нашего меню и забирай новый фирменный бургер за пол
+                    цены!
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-header">Отзывы наших клиентов</div>
+            <div class="slider-container">
+                <div class="slider-track">
+                    <div class="slider-item hide">
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2021</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Ксения, 33 года</h2>
+                            <span>Все отлично понимают, что Гамбургер вреден. Но это ведь так вкусно. Я крайне редко позволяю себе отведать его, но иногда уж очень хочется!</span>
+                            <h3>03.10.2021</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Оксана, 38 лет</h2>
+                            <span>Если я перед собой вижу гамбургер, меня не остановишь разговорами о бешенной калорийности, жирности, вредности, я всё равно его съем.</span>
+                            <h3>25.12.2021</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Юлия, 29 лет</h2>
+                            <span>О, гамбургер просто обожаю! Правда редко его ем, но в кафешках быстрого приготовления могу себя побаловать!</span>
+                            <h3>15.01.2022</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2020</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2020</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2020</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2020</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2020</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <h2>Алеся, 25 лет</h2>
+                            <span>Заказывали 10 бургеров на большую компанию, и по акции взяли еще 5 фирменных бургеров, очень выгодно и вкусно!</span>
+                            <h3>29.09.2020</h3>
+                        </div>
+                    </div>
+                    <div class="slider-item hide">
+                    </div>
+                </div>
+                <button class="btn btn-prev">
+                    <?xml version="1.0" ?>
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg viewBox="0 -6.5 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title></title>
+                        <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-212.000000, -159.000000)" fill="#252528" fill-rule="nonzero">
+                                <g id="square-filled" transform="translate(50.000000, 120.000000)">
+                                    <path d="M187.108012,39.2902857 L197.649804,49.7417043 L197.708994,49.7959169 C197.889141,49.9745543 197.986143,50.2044182 198,50.4382227 L198,50.5617773 C197.986143,50.7955818 197.889141,51.0254457 197.708994,51.2040831 L197.6571,51.2479803 L187.108012,61.7097143 C186.717694,62.0967619 186.084865,62.0967619 185.694547,61.7097143 C185.30423,61.3226668 185.30423,60.6951387 185.694547,60.3080911 L194.702666,51.3738496 L162.99947,51.3746291 C162.447478,51.3746291 162,50.9308997 162,50.3835318 C162,49.8361639 162.447478,49.3924345 162.99947,49.3924345 L194.46779,49.3916551 L185.694547,40.6919089 C185.30423,40.3048613 185.30423,39.6773332 185.694547,39.2902857 C186.084865,38.9032381 186.717694,38.9032381 187.108012,39.2902857 Z M197.115357,50.382693 L186.401279,61.0089027 L197.002151,50.5002046 L197.002252,50.4963719 L196.943142,50.442585 L196.882737,50.382693 L197.115357,50.382693 Z" id="right-arrow">
+
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+                <button class="btn btn-next">
+                    <?xml version="1.0" ?>
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg viewBox="0 -6.5 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title></title>
+                        <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-212.000000, -159.000000)" fill="#252528" fill-rule="nonzero">
+                                <g id="square-filled" transform="translate(50.000000, 120.000000)">
+                                    <path d="M187.108012,39.2902857 L197.649804,49.7417043 L197.708994,49.7959169 C197.889141,49.9745543 197.986143,50.2044182 198,50.4382227 L198,50.5617773 C197.986143,50.7955818 197.889141,51.0254457 197.708994,51.2040831 L197.6571,51.2479803 L187.108012,61.7097143 C186.717694,62.0967619 186.084865,62.0967619 185.694547,61.7097143 C185.30423,61.3226668 185.30423,60.6951387 185.694547,60.3080911 L194.702666,51.3738496 L162.99947,51.3746291 C162.447478,51.3746291 162,50.9308997 162,50.3835318 C162,49.8361639 162.447478,49.3924345 162.99947,49.3924345 L194.46779,49.3916551 L185.694547,40.6919089 C185.30423,40.3048613 185.30423,39.6773332 185.694547,39.2902857 C186.084865,38.9032381 186.717694,38.9032381 187.108012,39.2902857 Z M197.115357,50.382693 L186.401279,61.0089027 L197.002151,50.5002046 L197.002252,50.4963719 L196.943142,50.442585 L196.882737,50.382693 L197.115357,50.382693 Z" id="right-arrow">
+
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="slide-number">
+                <div class="slide-position">1</div>
+                <span>/</span>
+                <div class="slide-count"></div>
+            </div>
+
+        </div>
+    </section>
+    <section class="photoGuests">
+        <div class="container">
+            <h2>Фотографии от наших гостей</h2>
+            <div class="photos">
+                <div class="firstPhotoBlock">
+                    <div class="firstColon">
+                        <div class="photo1">
+                            <a href="src/images/photos/1.png">
+                                <img src="src/images/photos/1.png" alt="" id="photo1">
+                            </a>
+                        </div>
+                        <div class="photo4">
+                            <a href="src/images/photos/4.png">
+                                <img src="src/images/photos/4.png" alt="" id="photo4">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="secondColon">
+                        <div class="photo2">
+                            <a href="src/images/photos/2.png">
+                                <img src="src/images/photos/2.png" alt="" id="photo2">
+                            </a>
+                        </div>
+                        <div class="photo5">
+                            <a href="src/images/photos/5.png">
+                                <img src="src/images/photos/5.png" alt="" id="photo5">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="thirdColon">
+                        <div class="photo3">
+                            <a href="src/images/photos/3.png">
+                                <img src="src/images/photos/3.png" alt="" id="photo3">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondPhotoBlock animate__animated animate__fadeInUp">
+                    <div class="thirdColon">
+                        <div class="photo3">
+                            <a href="src/images/photos/9.jpg">
+                                <img src="src/images/photos/9.jpg" alt="" id="photo6">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="secondColon">
+                        <div class="photo2">
+                            <a href="src/images/photos/6.jpg">
+                                <img src="src/images/photos/6.jpg" alt="" id="photo7">
+                            </a>
+                        </div>
+                        <div class="photo5">
+                            <a href="src/images/photos/8.jpg">
+                                <img src="src/images/photos/8.jpg" alt="" id="photo9">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstColon">
+                        <div class="photo1">
+                            <a href="src/images/photos/10.jpg">
+                                <img src="src/images/photos/10.jpg" alt="" id="photo8">
+                            </a>
+                        </div>
+                        <div class="photo4">
+                            <a href="src/images/photos/7.jpg">
+                                <img src="src/images/photos/7.jpg" alt="" id="photo10">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos-actions">
+                <button type="button" class="button">Показать еще
+                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L7 6.29289L12.6464 0.646447C12.8417 0.451184 13.1583 0.451184 13.3536 0.646447C13.5488 0.841709 13.5488 1.15829 13.3536 1.35355L7.35355 7.35355C7.15829 7.54882 6.84171 7.54882 6.64645 7.35355L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"
+                              fill="black"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="tomato">
+                <img src="src/images/tomato.png" alt="Tomato">
+            </div>
+        </div>
+    </section>
+    <section class="contacts-map">
+        <div class="container">
+            <div class="contacts">
+                <h2>Контакты</h2>
+                <div class="address">ул. Янки Купалы, 15, 2 этаж,
+                    ближайшее метро «Немига»
+                </div>
+                <div class="phone-number">
+                    <div>+ 375 (29) 671-82-93</div>
+                    <div>+ 375 (25) 971-72-98</div>
+                </div>
+                <div class="working-time">Пн-Пт: с 10.00 до 21.00
+                    Сб-Вс: с 10.00 до 23.00
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16772.56672109922!2d27.56797286010322!3d53.91454131651466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf9c042cbf71%3A0x4a9634f29d50e538!2z0J_QtdGB0L7Rh9C90LjRhtCw!5e1!3m2!1sru!2sby!4v1671394885931!5m2!1sru!2sby"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="green-pepper">
+                <img src="src/images/green-peppers.png" alt="Pepper">
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="logo-rights">
+            <div>
+                <a href="#" class="logo">
+                    <img src="src/images/cheeseburger.png" alt="Logo">
+                    <span class="header-text">Buffalo Club</span>
+                </a>
+            </div>
+            <div class="rights">
+                Все права защищены, 2023
+            </div>
+        </div>
+        <div class="social-nets">
+            <div class="net">
+                <a href="https://www.instagram.com/pesochnica.minsk/">
+                    <img src="src/images/social/instagram.png" alt="">
+                </a>
+            </div>
+            <div class="net">
+                <a href="#">
+                    <img src="src/images/social/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="net">
+                <a href="#">
+                    <img src="src/images/social/telegram-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section class="popup" id="popup">
+    <div class="container">
+        <div class="close" id="popupClose">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+        </div>
+        <div class="popup-image">
+            <img src="src/images/burgers/blackbro.png" alt="">
+        </div>
+        <div class="popup-header">
+            <h2>Заполните форму и мы Вам перезвоним</h2>
+        </div>
+        <form class="popup-form" id="form" method="post">
+            <input class="button" type="text" placeholder="Ваше имя" id="nameForm">
+            <div class="error-input">Необходимо ввести имя</div>
+            <input class="button" type="tel" placeholder="Ваш номер телефона" id="phoneForm">
+            <div class="error-input">Необходимо ввести телефон</div>
+            <input class="button" type="text" placeholder="Ваш заказ" id="orderForm">
+            <div class="error-input">Необходимо выбрать заказ</div>
+            <div>
+                <button class="button" type="button" id="popupButton">Отправить</button>
+            </div>
+        </form>
+        <div class="order-success" id="order-success">Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!</div>
+    </div>
+</section>
+
+<div class="up">
+    <button class="button" id="up">
+        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L7 6.29289L12.6464 0.646447C12.8417 0.451184 13.1583 0.451184 13.3536 0.646447C13.5488 0.841709 13.5488 1.15829 13.3536 1.35355L7.35355 7.35355C7.15829 7.54882 6.84171 7.54882 6.64645 7.35355L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"
+                  fill="white"/>
+        </svg>
+    </button>
+</div>
+
+<div class="loader">
+    <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<script src="src/scripts/jquery-3.6.1.min.js"></script>
+<script src="src/scripts/jquery-ui.min.js"></script>
+<script src="src/scripts/bootstrap.min.js"></script>
+<script src="src/scripts/jquery.magnific-popup.js"></script>
+<script src="src/scripts/script.js"></script>
+<script src="src/scripts/popupForm.js"></script>
+<script src="src/scripts/slides.js"></script>
+
+
+
+</body>
